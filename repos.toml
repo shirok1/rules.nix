@@ -1,0 +1,3 @@
+[[repos]]
+repo = "Loyalsoldier/v2ray-rules-dat"
+assets = ["geoip.dat", "geosite.dat"]
