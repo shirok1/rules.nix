@@ -12,6 +12,19 @@
         }
       },
       "release": "202602102234"
+    },
+    "elysias123/geosite": {
+      "assets": {
+        "geoip.dat": {
+          "sha256_hex": "8cf3dac7d99e428a380bd3aa1330f57718a794d45fe4f9dd20077c010dc0bcdb",
+          "sha256_sri": "sha256-jPPax9meQoo4C9OqEzD1dxinlNRf5PndIAd8AQ3AvNs="
+        },
+        "geosite.dat": {
+          "sha256_hex": "2d67805579d130b31a1852ce204710b0bc788566e5113d7e400edd7f5ce42c9c",
+          "sha256_sri": "sha256-LWeAVXnRMLMaGFLOIEcQsLx4hWblET1+QA7df1zkLJw="
+        }
+      },
+      "release": "202602102249"
     }
   }
 }
