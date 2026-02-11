@@ -9,12 +9,21 @@
     { nixpkgs, ... }:
     let
       hashes = builtins.fromJSON (builtins.readFile ./hashes.json);
-      system = builtins.currentSystem;
-      pkgs = import nixpkgs { inherit system; };
-      lib = pkgs.lib;
+
+      systems = [
+        "x86_64-linux"
+        "aarch64-linux"
+        "x86_64-darwin"
+        "aarch64-darwin"
+      ];
+
+      forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f system);
 
       mkDat =
         pkgs':
+        let
+          lib = pkgs'.lib;
+        in
         lib.mapAttrs (
           repoName: repoData:
           lib.mapAttrs (
@@ -28,36 +37,51 @@
         ) hashes.repos;
 
       mkCombined =
+        pkgs':
         {
           name,
           geoip,
           geosite,
         }:
-        pkgs.runCommandLocal "${name}" { } ''
+        pkgs'.runCommandLocal name { } ''
           mkdir -p $out/share/v2ray
-
           ln -s ${geoip} $out/share/v2ray/geoip.dat
           ln -s ${geosite} $out/share/v2ray/geosite.dat
         '';
-
-      dat = mkDat pkgs;
-      combined = lib.mapAttrs (
-        repoName: repoAssets:
-        mkCombined {
-          name = lib.replaceStrings [ "/" ] [ "-" ] repoName;
-          geoip = repoAssets."geoip.dat";
-          geosite = repoAssets."geosite.dat";
-        }
-      ) dat;
     in
     {
-      inherit dat combined;
-      tool = combined;
+      packages = forAllSystems (
+        system:
+        let
+          pkgs = import nixpkgs { inherit system; };
+          lib = pkgs.lib;
+
+          dat = mkDat pkgs;
+
+          combined = lib.mapAttrs (
+            repoName: repoAssets:
+            mkCombined pkgs {
+              name = lib.replaceStrings [ "/" ] [ "-" ] repoName;
+              geoip = repoAssets."geoip.dat";
+              geosite = repoAssets."geosite.dat";
+            }
+          ) dat;
+        in
+        {
+          inherit dat combined;
+
+          default =
+            let
+              firstRepo = builtins.head (builtins.attrNames combined);
+            in
+            combined.${firstRepo};
+
+          tool = combined;
+        }
+      );
 
       lib = {
-        inherit hashes;
-        mkDat = mkDat;
-        mkCombined = mkCombined;
+        inherit hashes mkDat mkCombined;
       };
     };
 }
