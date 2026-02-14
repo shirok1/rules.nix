@@ -19,7 +19,7 @@
       {
         imports = [
           # Optional: use external flake logic, e.g.
-          # inputs.foo.flakeModules.default
+          inputs.flake-parts.flakeModules.easyOverlay
         ];
         flake = {
           # Put your original flake attributes here.
@@ -57,6 +57,7 @@
             ) dat;
           in
           {
+            overlayAttrs.rules = config.legacyPackages;
             legacyPackages = {
               inherit dat combined;
             };
