@@ -14,8 +14,10 @@ Add overlay to your nixpkgs:
 ```nix
 nixpkgs.overlays = [
   (final: prev: {
-    rules = inputs.rules.packages.${final.stdenv.hostPlatform.system};
+    rules = inputs.rules.legacyPackages.${final.stdenv.hostPlatform.system};
   })
+  # or
+  inputs.rules.overlays.default
 ];
 ```
 
