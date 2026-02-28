@@ -7,11 +7,11 @@
           "sha256_sri": "sha256-X33IirmNViJywrNpbUIhT4JZ9h1Llw25PAB6umBUsEs="
         },
         "geosite.dat": {
-          "sha256_hex": "4b1405cd18013053638119a814d25188cb3b8b559cffd911a46318c27d6cb23d",
-          "sha256_sri": "sha256-SxQFzRgBMFNjgRmoFNJRiMs7i1Wc/9kRpGMYwn1ssj0="
+          "sha256_hex": "87629f3948f80811b2f04e4fa7fcbbf0241b3dfc95e123ccd188630664be03da",
+          "sha256_sri": "sha256-h2KfOUj4CBGy8E5Pp/y78CQbPfyV4SPM0YhjBmS+A9o="
         }
       },
-      "release": "202602262227"
+      "release": "202602272217"
     },
     "elysias123/geosite": {
       "assets": {
