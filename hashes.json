@@ -7,11 +7,11 @@
           "sha256_sri": "sha256-iqm0g48p6s6W7Jn/lxv2LLH/eV0c2nohDD1ePLhP4uY="
         },
         "geosite.dat": {
-          "sha256_hex": "e5ffc9041c39cec92362a220bb2549189bae86e3113a3e82004caef13a501e41",
-          "sha256_sri": "sha256-5f/JBBw5zskjYqIguyVJGJuuhuMROj6CAEyu8TpQHkE="
+          "sha256_hex": "f738cc15fb48e49ba77333af3b3ea7550ef0edab3f3f6aa2f9843946f898e5dc",
+          "sha256_sri": "sha256-9zjMFftI5JunczOvOz6nVQ7w7as/P2qi+YQ5RviY5dw="
         }
       },
-      "release": "202605112249"
+      "release": "202605122254"
     },
     "elysias123/geosite": {
       "assets": {
@@ -20,11 +20,11 @@
           "sha256_sri": "sha256-iqm0g48p6s6W7Jn/lxv2LLH/eV0c2nohDD1ePLhP4uY="
         },
         "geosite.dat": {
-          "sha256_hex": "65bea64c25b613275097d785c84103ba629bdc5f8506cecf968a3fce740d39c6",
-          "sha256_sri": "sha256-Zb6mTCW2EydQl9eFyEEDumKb3F+FBs7Ploo/znQNOcY="
+          "sha256_hex": "0b3a8097b6dc0681ec546e5cfb87933ee8319b3f7db7bda1220d469ab4363f08",
+          "sha256_sri": "sha256-CzqAl7bcBoHsVG5c+4eTPugxmz99t72hIg1GmrQ2Pwg="
         }
       },
-      "release": "202605112259"
+      "release": "202605122307"
     }
   }
 }
