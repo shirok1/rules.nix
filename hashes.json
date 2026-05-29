@@ -3,28 +3,28 @@
     "Loyalsoldier/v2ray-rules-dat": {
       "assets": {
         "geoip.dat": {
-          "sha256_hex": "d2e9f275b996c5cf676be7c7e402726e1ee415f45662d69edd649494ca4d1713",
-          "sha256_sri": "sha256-0unydbmWxc9na+fH5AJybh7kFfRWYtae3WSUlMpNFxM="
+          "sha256_hex": "2cda9118ee9995d5dc15d36661a9dc30534a6272ba6882c0c159f7ce08f0288b",
+          "sha256_sri": "sha256-LNqRGO6ZldXcFdNmYancMFNKYnK6aILAwVn3zgjwKIs="
         },
         "geosite.dat": {
-          "sha256_hex": "46eb1b838d9e58784e0494da25f0c4a91b7fb09bfdf894c148cab2a3f6c9dad2",
-          "sha256_sri": "sha256-Rusbg42eWHhOBJTaJfDEqRt/sJv9+JTBSMqyo/bJ2tI="
+          "sha256_hex": "d64e1906ccb8d81472bdc1e4a51b849552157aa3c7b7d56da03d62c1ddadcf7d",
+          "sha256_sri": "sha256-1k4ZBsy42BRyvcHkpRuElVIVeqPHt9VtoD1iwd2tz30="
         }
       },
-      "release": "202605272312"
+      "release": "202605282309"
     },
     "elysias123/geosite": {
       "assets": {
         "geoip.dat": {
-          "sha256_hex": "d2e9f275b996c5cf676be7c7e402726e1ee415f45662d69edd649494ca4d1713",
-          "sha256_sri": "sha256-0unydbmWxc9na+fH5AJybh7kFfRWYtae3WSUlMpNFxM="
+          "sha256_hex": "2cda9118ee9995d5dc15d36661a9dc30534a6272ba6882c0c159f7ce08f0288b",
+          "sha256_sri": "sha256-LNqRGO6ZldXcFdNmYancMFNKYnK6aILAwVn3zgjwKIs="
         },
         "geosite.dat": {
-          "sha256_hex": "c83d88f7b9ff60e179a5e6b1c289d9e8a12061fbe1be24f1c71fd3791bb2fa6c",
-          "sha256_sri": "sha256-yD2I97n/YOF5peaxwonZ6KEgYfvhviTxxx/TeRuy+mw="
+          "sha256_hex": "dd834b772e0abb76a7ca94fae2f5f61ff0e557992c60141753c9ffa644f6cf50",
+          "sha256_sri": "sha256-3YNLdy4Ku3anypT64vX2H/DlV5ksYBQXU8n/pkT2z1A="
         }
       },
-      "release": "202605272320"
+      "release": "202605282321"
     }
   }
 }
