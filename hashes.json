@@ -20,11 +20,11 @@
           "sha256_sri": "sha256-picdPJY2HZYVbm0/fPFVDvIbANL5Ud63cvRk25HomsU="
         },
         "geosite.dat": {
-          "sha256_hex": "ee3e06ca3943af67a99e29ca04f2bb479079e81bf30f0d853a60e6aa9c1ecac1",
-          "sha256_sri": "sha256-7j4GyjlDr2epninKBPK7R5B56BvzDw2FOmDmqpweysE="
+          "sha256_hex": "c025dcbdc63d0cfe6cc77b8fbf907234a5022dde4001e6d92aadcaecbab61f7e",
+          "sha256_sri": "sha256-wCXcvcY9DP5sx3uPv5ByNKUCLd5AAebZKq3K7Lq2H34="
         }
       },
-      "release": "202610250008"
+      "release": "202610252359"
     }
   }
 }
