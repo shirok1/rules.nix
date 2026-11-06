@@ -3,15 +3,15 @@
     "Loyalsoldier/v2ray-rules-dat": {
       "assets": {
         "geoip.dat": {
-          "sha256_hex": "06c1d50d0013af57ffe78c5af93f0dc6aa998890f3ee231393816f9117810c4a",
-          "sha256_sri": "sha256-BsHVDQATr1f/54xa+T8NxqqZiJDz7iMTk4FvkReBDEo="
+          "sha256_hex": "90b78ab861c1cdc3f871f305f9ceedfb8d6d6329e3a40295e6773e057297384c",
+          "sha256_sri": "sha256-kLeKuGHBzcP4cfMF+c7t+41tYynjpAKV5nc+BXKXOEw="
         },
         "geosite.dat": {
-          "sha256_hex": "916fea0cea925cc47f09001dfac652d5e8edb6db69ff13ad68e2b4ac9e8ecc1b",
-          "sha256_sri": "sha256-kW/qDOqSXMR/CQAd+sZS1ejttttp/xOtaOK0rJ6OzBs="
+          "sha256_hex": "eb694a0dd2afdc7b2a4467402d11cf2e95bc284c7eb8f20d18b25b8068a4c1c0",
+          "sha256_sri": "sha256-62lKDdKv3HsqRGdALRHPLpW8KEx+uPINGLJbgGikwcA="
         }
       },
-      "release": "202611042203"
+      "release": "202611052203"
     },
     "elysias123/geosite": {
       "assets": {
@@ -20,11 +20,11 @@
           "sha256_sri": "sha256-kLeKuGHBzcP4cfMF+c7t+41tYynjpAKV5nc+BXKXOEw="
         },
         "geosite.dat": {
-          "sha256_hex": "84e9dcd31c5ad138bb5fbd46d064d4f394deb832431bf0f12b412e7be1d8c91c",
-          "sha256_sri": "sha256-hOnc0xxa0Ti7X71G0GTU85TeuDJDG/DxK0Eue+HYyRw="
+          "sha256_hex": "c8848e315a1cc0de5d259275c510bd58b4426a65868c35d09b473fce7054c806",
+          "sha256_sri": "sha256-yISOMVocwN5dJZJ1xRC9WLRCamWGjDXQm0c/znBUyAY="
         }
       },
-      "release": "202611050205"
+      "release": "202611060206"
     }
   }
 }
